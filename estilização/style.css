@@ -115,6 +115,7 @@ input[type = submit]{
     margin-bottom: 100px;
     padding: 10px;
     border-radius: 5px;
+
     border: none;
     background-color: black;
     color: white;
@@ -123,9 +124,17 @@ input[type = submit]{
 
 
 /* Tela Portfolio */
-#card{
+
+#todo-port {
+    display: flex;
+    margin-top: 5%;
+    width: 80%;
     margin-left: 20%;
-    margin-top: 50px;
+    height: auto;
+}
+
+#card{
+    margin-top: 30px;
     background-color: rgb(255, 255, 255);
     height: auto;
     width: 200px;
@@ -137,7 +146,7 @@ input[type = submit]{
 
 .img-port{
     width: 40%;
-    margin-top: 30px;
+    padding-top: 20px;
     height: auto; 
 }
 
@@ -157,6 +166,7 @@ input[type = submit]{
     background-color: rgb(11, 14, 31) ;
     color: white;
     border: none; 
+    cursor: pointer;
 }
 
 .titulo{
@@ -165,7 +175,21 @@ input[type = submit]{
 }
 
 #card2{
-    margin-left: 50%;
+    margin-top: 30px;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 200px;
+    text-align: center;
+    
+    border-radius: 5px;
+    box-shadow:5px 5px rgb(187, 187, 187);
+
+}
+
+#card3{
+    margin-top: 30px;
+    margin-left: 10%;
     background-color: rgb(255, 255, 255);
     height: auto;
     width: 200px;
